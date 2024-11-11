@@ -1,0 +1,116 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Стили для навигации */
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff; /* Белый цвет фона для всей строки */
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Тень для выделения строки */
+}
+
+nav .logo {
+    width: 200px; /* Увеличьте размер логотипа при необходимости */
+    margin-right: 20px; /* Расстояние между логотипом и ссылками */
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Цвет текста ссылок */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #0073e6; /* Цвет при наведении */
+}
+/* Стили основного контента */
+.intro {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0fbfc;
+    color: #023047;
+}
+
+.highlight {
+    color: #ff7a59;
+    font-weight: bold;
+}
+
+/* Таблица расписания */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #333;
+}
+
+th {
+    background-color: #005f73;
+    color: #fff;
+}
+
+td {
+    text-align: left;
+    color: #333;
+}
+
+td[align="center"] {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+/* Стили для выделения текста */
+h1, h2 {
+    color: #005f73;
+    text-align: center;
+}
+
+p, ul li {
+    color: #333;
+    font-size: 1.1em;
+}
+
+/* Фоновое изображение для главной страницы */
+.home-page {
+    background-image: url('fon.png'); /* Замените на путь к вашему изображению */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+    color: white;
+}
+
+
